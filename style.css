@@ -7,7 +7,7 @@
 
 }
 
-:root {
+:root{
     --amost-white: #FFFDFA;
     --dark-blue: #00001A;
     --gunmetal: #5E607A;
@@ -32,7 +32,7 @@ body{
     left: 0;
 }
 
-.header-mobile {
+header {
    display: flex;
    justify-content: space-between; 
    align-items: center;
@@ -40,13 +40,13 @@ body{
 }
 
 
-.header-mobile button {
+header button {
     border: none;
     background: none;
     width: fit-content;
 }
 
-.header-mobile nav{
+header nav.mobile{
     position: fixed;
     background-color:var(--amost-white) ;
     right: -16rem;
@@ -63,16 +63,16 @@ body{
     transition: 0.7s;
   
 }
-.header-mobile nav.abrir{
+header-mobile.nav.abrir{
     right: 0;
 }
 
-.header-mobile nav button{
+header nav button{
     align-items: flex-end;
     margin-bottom: 4rem;
 }
 
-.header-mobile nav a{
+header .mobile nav a{
     text-decoration: none;
     color: var(--dark-blue);
     font-size: 1.125rem;
